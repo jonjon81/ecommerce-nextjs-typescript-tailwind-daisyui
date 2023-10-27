@@ -1,5 +1,7 @@
 # Ecommerce project made with:
+
 NextJS <br>
 Typescript <br>
 Tailwind <br>
-DaisyUI
+DaisyUI <br>
+Database engine: MySQL
