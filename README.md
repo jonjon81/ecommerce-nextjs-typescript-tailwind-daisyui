@@ -3,5 +3,4 @@
 NextJS <br>
 Typescript <br>
 Tailwind <br>
-DaisyUI <br>
-Database engine: MySQL
+DaisyUI
