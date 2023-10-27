@@ -1,5 +1,5 @@
 # Ecommerce project made with:
-    <ul>
+## <ul>
         <li>NextJS</li>
         <li>Typescript</li>
         <li>Tailwind</li>
