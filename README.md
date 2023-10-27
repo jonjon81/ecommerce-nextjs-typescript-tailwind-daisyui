@@ -1,5 +1,5 @@
 # Ecommerce project made with:
-NextJS
-Typescript
+NextJS <br>
+Typescript <br>
 Tailwind <br>
 DaisyUI
