@@ -1,6 +1,6 @@
-#Ecommerce project made with:
+# Ecommerce project made with:
 
-##NextJS
-##Typescript
-##Tailwind
-##DaisyUI
+## NextJS
+## Typescript
+## <p>Tailwind</p>
+## DaisyUI
