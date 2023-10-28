@@ -11,6 +11,7 @@ import { zodResolver } from '@hookform/resolvers/zod';
 import { validationSchemas } from '@/app/validationSchemas';
 import { z } from 'zod';
 import ErrorMessage from '@/app/components/errorMessage';
+import Spinner from '@/app/components/Spinner';
 
 type IssueForm = z.infer<typeof validationSchemas>;
 
@@ -56,7 +57,9 @@ const NewIssuePage = () => {
         ></Controller>
         {<ErrorMessage>{errors.description?.message}</ErrorMessage>}
 
-        <Button>Submit New Issue</Button>
+        <Button>
+          Submit New Issue <Spinner />
+        </Button>
       </form>
     </div>
   );
