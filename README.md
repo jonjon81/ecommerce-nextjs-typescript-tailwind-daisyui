@@ -1,4 +1,4 @@
-# Ecommerce project made with:
+# Full Stack Issue tracker
 
 NextJS<br>
 -Routing and navigation with App router<br>
