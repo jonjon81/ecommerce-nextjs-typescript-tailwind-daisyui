@@ -9,11 +9,8 @@ const Navbar = () => {
   const currentPath = usePathname();
   console.log(currentPath);
   const links = [
-    { label: 'Home', href: '/' },
-    { label: 'About', href: '/about' },
-    { label: 'Products', href: '/products' },
-    { label: 'Top Deals', href: '/top-deals' },
-    { label: 'Checkout', href: '/checkout' },
+    { label: 'Dashboard', href: '/' },
+    { label: 'Issues', href: '/issues' },
   ];
   return (
     <nav className="flex space-x-6 border-b mb-5 px-5 h-14 items-center">
