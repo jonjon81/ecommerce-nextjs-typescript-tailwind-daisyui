@@ -1,6 +1,6 @@
 # Full Stack Issue Tracker
 
-NextJS
+- NextJS
    - Routing and navigation with App router
    - NextAuth
 
