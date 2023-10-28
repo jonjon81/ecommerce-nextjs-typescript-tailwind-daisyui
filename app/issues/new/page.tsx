@@ -1,6 +1,6 @@
 'use client';
 
-import { Button, TextField, Callout, InfoCircledIcon } from '@radix-ui/themes';
+import { Button, TextField, Callout } from '@radix-ui/themes';
 import SimpleMDE from 'react-simplemde-editor';
 import { useForm, Controller } from 'react-hook-form';
 import axios from 'axios';
@@ -20,10 +20,8 @@ const NewIssuePage = () => {
   return (
     <div className="max-w-xl">
       {error && (
-        <Callout.Root className="mb-5">
-          <Callout.Icon>
-            <InfoCircledIcon />
-          </Callout.Icon>
+        <Callout.Root className="mb-5" color="red">
+          <Callout.Icon></Callout.Icon>
           <Callout.Text>{error}</Callout.Text>
         </Callout.Root>
       )}
