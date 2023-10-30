@@ -14,7 +14,7 @@ const config: Config = {
       },
     },
   },
-  plugins: [require('daisyui')],
+  plugins: [require('@tailwindcss/typography')],
   daisyui: {
     themes: ['winter'],
   },
